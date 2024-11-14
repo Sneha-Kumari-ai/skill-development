@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .description {
+            margin: 20px;
+            text-align: center;
+            max-width: 800px;
+            font-size: 1.2em;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .skill-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .skill-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .skill-card h3 {
+            margin: 10px 0;
+        }
+        
+        .skill-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 4px;
+            margin: 15px 0;
+            cursor: pointer;
+            animation: bounce 2s infinite;
+        }
+        
+        .skill-button:hover {
+            background-color: #45a049;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .description {
+                font-size: 1em;
+            }
+            .skill-card {
+                width: 90%;
+            }
+        }
+        body {
+            background-image: url('https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.jpg?s=612x612&w=0&k=20&c=NUf6D4ZgRm6XC7Av2WwmkW5RkHNKbnIgulwmvbEshac='); /* Replace with your image path */
+            background-size: cover; /* Makes the background cover the whole screen */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skill Development</h1>
+    </header>
+    
+    <div class="description">
+        <p>Explore various technical skills in different programming languages. Click on each skill to learn more and see examples of programs in action!</p>
+    </div>
+    
+    <div class="skills-container">
+        <!-- Skill cards -->
+        <div class="skill-card">
+            
+            <img src="https://i.pinimg.com/originals/6a/fb/f4/6afbf45910b9b4c344737f76043d2cbc.jpg" alt="Python Example">
+            <h3>Python Programming</h3>
+            <p>Data Science, Web Development, Scripting</p>
+            <a href="python.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+            
+        </div>
+
+        <div class="skill-card">
+            <img src="https://essaycorp.com/blog/uploads/Why-Java-is-Secure.png" alt="Java Example">
+            <h3>Java Programming</h3>
+            <p>Android Development, Enterprise Applications</p>
+            <a href="java.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://assets.bacancytechnology.com/qanda/wp-content/uploads/2024/10/16055013/Parse-a-String-in-JavaScript.jpg" alt="JavaScript Example">
+            <h3>JavaScript</h3>
+            <p>Web Development, Frontend Frameworks</p>
+            <a href="javascript.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVm4yEaRq9Ry8KTqRfBc1gyfz_SUGhRCAIQ&s" alt="C++ Example">
+            <h3>C++ Programming</h3>
+            <p>Game Development, High-Performance Applications</p>
+            <a href="c++.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_j-tVG5YwCRmkeEObpqaI3R4eWjhjBn03qg&s" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript, Frameworks</p>
+            <a href="webdev.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg" alt="App Development">
+            <h3>App Development</h3>
+            <p>iOS, Android, Cross-Platform Apps</p>
+            <a href="appdev.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/013/030/138/small/big-data-science-analysis-information-technology-concept-server-room-background-photo.jpg" alt="Data Science">
+            <h3>Data Science</h3>
+            <p>Machine Learning, Data Analysis</p>
+            <a href="datasci.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://www.theinfinityhub.com/blog/wp-content/uploads/2024/01/cloud-computing.webp" alt="Cloud Computing">
+            <h3>Cloud Computing</h3>
+            <p>AWS, Azure, GCP</p>
+            <a href="cloudcomp.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tiJLqukmRO62pro8SsOF3YaTcDcbCB-yCA&s" alt="Cybersecurity">
+            <h3>Cybersecurity</h3>
+            <p>Network Security, Ethical Hacking</p>
+            <a href="cybersec.html" class="nav-button">click here to learn </a>
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://wallpapers.com/images/featured/ai-vpzcidps6aw64inn.jpg" alt="Artificial Intelligence">
+            <h3>Artificial Intelligence</h3>
+            <p>AI Models, Deep Learning</p>
+            <a href="ai.html" class="nav-button">click here to learn </a>
+
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://img.freepik.com/free-vector/blockchain-technology-security-template-vector-data-payment-securing-blog-banner_53876-112174.jpg" alt="Blockchain">
+            <h3>Blockchain</h3>
+            <p>Cryptocurrency, Decentralized Apps</p>
+            <a href="blockchain.html" class="nav-button">click here to learn </a>
+
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJBvDcOxPsedLXFXMKKHfHYxSTdncRyEtvlw&s" alt="Robotics">
+            <h3>Robotics</h3>
+            <p>Automation, Control Systems</p>
+            <a href="robotics.html" class="nav-button">click here to learn </a>
+
+            <button class="skill-button">Learn More</button>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfZkoekX8RcTNh13Vyf1iPjkCx6ZxROyU-g&s" alt="Virtual Reality">
+            <h3>Virtual Reality</h3>
+            <p>VR Development, 3D Modeling</p>
+            <a href="vr.html" class="nav-button">click here to learn </a>
+
+            <button class="skill-button">Learn More</button>
+        </div>
+
+    </div>
+</body>
+</html>

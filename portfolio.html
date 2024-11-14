@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Builder</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header Styling */
+        .header {
+            background-color: #3b5998;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* Bouncing Navigation Button Styling */
+        .nav-btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            background-color: #5e72e4;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.1);
+            animation: bounce 1s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Content Section */
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            color: #3b5998;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .content img {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #3b5998;
+            color: white;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .nav-btn {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+
+            .content {
+                padding: 10px;
+            }
+
+            .content h2 {
+                font-size: 24px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Website Builder</h1>
+        <p>Build Your Dream Website with Technical Guidance</p>
+    </div>
+
+    <!-- Navigation Buttons Section -->
+    <div>
+        <a href="#html" class="nav-btn">HTML Basics</a>
+        <a href="#css" class="nav-btn">CSS Styling</a>
+        <a href="#javascript" class="nav-btn">JavaScript</a>
+        <a href="#responsive" class="nav-btn">Responsive Design</a>
+    </div>
+
+    <!-- Content Section -->
+    <div id="html" class="content">
+        <h2>HTML Basics</h2>
+        <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It forms the basic structure of a webpage, providing elements like headings, paragraphs, links, and images.</p>
+        <img src="https://aptlearn.io/wp-content/uploads/2022/11/3A72FC98-22C5-4BA7-AF85-C18BA8EEB81A.png" alt="HTML Basics">
+        <p>HTML is the foundation of web development. Mastering HTML is the first step towards building any website.</p>
+    </div>
+
+    <div id="css" class="content">
+        <h2>CSS Styling</h2>
+        <p>CSS (Cascading Style Sheets) is used to style the HTML structure. With CSS, you can add colors, fonts, layouts, and animations to make your website visually appealing.</p>
+        <img src="https://i.ytimg.com/vi/XZc0svYJGFg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDH-SrCTKuCAA_9hiQOfBuzVV5RBw" alt="CSS Styling">
+        <p>CSS allows you to design and customize your website to match your vision. You can manipulate the layout, text styles, and more to create a unique look.</p>
+    </div>
+
+    <div id="javascript" class="content">
+        <h2>JavaScript</h2>
+        <p>JavaScript is a programming language that adds interactivity to your website. It can create dynamic content, handle events, and perform actions like form validation and animations.</p>
+        <img src="https://www.thetutelab.com/wp-content/uploads/2024/09/JavaScript-Basics-Tutorial.webp" alt="JavaScript Programming">
+        <p>With JavaScript, you can turn a static webpage into a responsive, interactive user experience.</p>
+    </div>
+
+    <div id="responsive" class="content">
+        <h2>Responsive Design</h2>
+        <p>Responsive design ensures that your website looks good on all devices, from mobile phones to large desktop screens. It uses media queries, flexible grids, and images to adapt to different screen sizes.</p>
+        <img src="https://public-images.interaction-design.org/literature/articles/materials/uoFDqppYNyhkKBWMb2Rp8JBG1UZs3tR2nvg8IfKi.jpg" alt="Responsive Design">
+        <p>Responsive web design is crucial in today's mobile-first world. It's essential to ensure your website is accessible and easy to navigate on any device.</p>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Website Builder | All Rights Reserved</p>
+    </div>
+
+</body>
+</html>

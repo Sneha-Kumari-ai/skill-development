@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Skill Development and Portfolio Builder</title>
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://via.placeholder.com/1500x800?text=Tech+Background') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Main container styling */
+        .container {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        /* Header title */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        /* Subtitle styling */
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        /* Button styling */
+        .nav-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            color: #fff;
+            font-size: 1em;
+            font-weight: bold;
+            background: #007bff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+
+        /* Bouncing effect */
+        .nav-button:hover {
+            animation: bounce 0.5s;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Contact section */
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .nav-button {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+        }
+        body {
+            background-image: url('https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg'); /* Replace with your image path */
+            background-size: cover; /* Makes the background cover the whole screen */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Online Skill Development and Portfolio Builder</h1>
+        <p>Enhance your skills and showcase your portfolio with our interactive platform</p>
+        
+        <!-- Navigation buttons with bouncing effect -->
+        <a href="skills.html" class="nav-button">Skill Development</a>
+        <a href="portfolio.html" class="nav-button">Portfolio Builder</a>
+        <a href="contact.html" class="nav-button">Contact Us</a>
+
+        <!-- Contact information -->
+        <div class="contact-info" id="contact">
+            <p>Email: info@skilldevelopment.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Address: 123 Tech Lane, Innovation City, Country</p>
+        </div>
+    </div>
+</body>
+</html>
